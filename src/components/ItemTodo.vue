@@ -1,6 +1,6 @@
 <template>
     <div class="todo">
-        <div>{{ tache }}</div>
+        <div class="tache">{{ tache }}</div>
         <button v-on:click="suppressionTache" class="btn btn-danger">X</button>
     </div>
 </template>
@@ -22,6 +22,10 @@
     justify-content: flex-start;
     align-items: center;
     position: relative;
+}
+.todo .tache {
+    max-width:60%;
+    
 }
 .todo button {
     position:absolute;

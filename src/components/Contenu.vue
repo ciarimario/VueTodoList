@@ -1,22 +1,25 @@
 <template>
-    <Header />
-    <main class="container">
+   
+    <main class="container-fluid m-0 p-0">
         <TodoList />
         
     </main>
+    <MyFooter />
 </template>
 
 <script>
-import Header from './Header.vue'
+
 import TodoList from './TodoList.vue'
+import Footer from './Footer.vue'
 
 
     export default {
         name:'Contenu',
         
         components:{
-            Header,
-            TodoList
+         
+            TodoList,
+            MyFooter:Footer
             
         },
         

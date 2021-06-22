@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header>
+        <header class="bg-dark">
             <h2>Welcome on my Todo List</h2>
         </header>
     </div>
@@ -15,8 +15,7 @@
 <style lang="css" scoped>
     header {
         width:100%;
-        min-height:200px;
-        background: rgb(63, 62, 62);
+        min-height:50px;
         display:flex;
         justify-content: center;
         align-items: center;
